@@ -18,10 +18,11 @@ npm i persian_data_validator
 ```javascript
 import { module_name} from "persian_data_validator";
 ```
-مثال» وارد کردن تابع validImageextention که وظیفه بررسی کردن پسوند تصاویر دارد درصورتیکه پسوند تصاویر png یا jpg باشد True برمیگرداند در غیراینصورت false برمیگرداند.
+مثال» وارد کردن تابع validImageextention که وظیفه بررسی کردن پسوند تصاویر دارد درصورتیکه پسوند تصاویر png یا jpg باشد true برمیگرداند در غیراینصورت false برمیگرداند.
 ```javascript
 import { validImageextention} from "persian_data_validator";
-console.log(validImageextention('a.png'))
+console.log(validImageextention('a.png'));//true
+console.log(validImageextention('a.svg'));//false
 ```
 
 
