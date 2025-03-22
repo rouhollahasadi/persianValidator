@@ -8,3 +8,10 @@ npm i persian_data_validator
 ```html
 <script src="https://cdn.jsdelivr.net/gh/rouhollahasadi/persianValidator/persianValidate.js"></script>
 ```
+نحوه استفاده دانلودی:
+فایل با نام persianValidate.js دانلود و در پروژه خود بصورت زیر  قرار دهید 
+```html
+<script src="persianValidate.js"></script>
+```
+
+
