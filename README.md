@@ -1,1 +1,2 @@
 # persianValidator
+# نصب و استفاده
