@@ -24,5 +24,14 @@ import { validImageextention} from "persian_data_validator";
 console.log(validImageextention('a.png'));//true
 console.log(validImageextention('a.svg'));//false
 ```
+طریق استفاده بصورت CDN یا دانلودی
 
-
+```html
+<script src="https://cdn.jsdelivr.net/gh/rouhollahasadi/persianValidator/persianValidate.js"></script>
+or
+<script src="persianValidate.js"></script>
+```
+```javascript
+console.log(validImageextention('a.png'));//true
+console.log(validImageextention('a.svg'));//false
+```
