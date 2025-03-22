@@ -1,5 +1,5 @@
 # persianValidator
-# نصب و استفاده 
+# روش های نصب
 نصب با npm
 ```bash
 npm i persian_data_validator
@@ -12,6 +12,16 @@ npm i persian_data_validator
 فایل با نام persianValidate.js دانلود و در پروژه خود بصورت زیر  قرار دهید 
 ```html
 <script src="persianValidate.js"></script>
+```
+# روش استفاده
+طریقه وارد کردن ماژولها از طریق import :
+```javascript
+import { module_name} from "persian_data_validator";
+```
+مثال» وارد کردن تابع validImageextention که وظیفه بررسی کردن پسوند تصاویر دارد درصورتیکه پسوند تصاویر png یا jpg باشد True برمیگرداند در غیراینصورت false برمیگرداند.
+```javascript
+import { validImageextention} from "persian_data_validator";
+console.log(validImageextention('a.png'))
 ```
 
 
